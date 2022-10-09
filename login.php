@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@yannikonyovel 
-yannikonyovel
-/
-Yovel-Projekt
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Yovel-Projekt/login.php /
-@yannikonyovel
-yannikonyovel Update login.php
-Latest commit 2ec1b8a 34 minutes ago
- History
- 1 contributor
-63 lines (63 sloc)  2.09 KB
-
 <?php
 session_start();
 require_once "db.php";
@@ -90,18 +61,3 @@ You don't have account?<a href="registration.php" class="mt-3">Click Here</a>
 </div>
 </body>
 </html>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Yovel-Projekt/login.php at master · yannikonyovel/Yovel-Projekt

@@ -96,16 +96,85 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 ?>
  
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Sign Up</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body{ font: 14px sans-serif; }
         .wrapper{ width: 360px; padding: 20px; }
     </style>
-</head>
+	  <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Yovel - Unsere Reise</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="Yannik Enslin">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif"/>
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <![endif]-->
+<header>
+    <!-- header inner -->
+    <div class="header">
+        <div class="header_white_section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header_information">
+                            <ul>
+                                <li><img src="images/1.png" alt="#"/> Keine Firmen Adresse</li>
+                                <li><img src="images/2.png" alt="#"/> +491627134729</li>
+                                <li><img src="images/3.png" alt="#"/> info@yovel.de</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                    <div class="full">
+                        <div class="center-desk">
+                            <div class="logo"><a href="index.html"><img src="images/logo_transparent.png" alt="#"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menuleiste für Oben -->
+</header>
+<!-- ende des header -->
+<section>
+    <div class="banner-main">
+        <img src="images/banner.jpg" alt="#"/>
+        <div class="container">
+            <div class="text-bg">
+                <h2>Yovel<br><strong class="white">Scroll to Register</strong></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <body>
     <div class="wrapper">
         <h2>Sign Up</h2>

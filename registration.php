@@ -8,7 +8,7 @@ $username_err = $email_err = $password_err = $confirm_password_err = "";
 
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-
+var_dump($_POST['email']; die();
     // Benutzername ueberpruefen
     if(empty(trim($_POST["username"]))){
         $username_err = "Please enter a username.";

@@ -2,14 +2,14 @@
 // Include config file
 require_once "config.php";
 
-// Define variables and initialize with empty values
+// Hier kommen die Variablen hin
 $username = $email = $password = $confirm_password = "";
 $username_err = $email_err = $password_err = $confirm_password_err = "";
 
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
-    // Validate username
+    // Benutzername ueberpruefen
     if(empty(trim($_POST["username"]))){
         $username_err = "Please enter a username.";
     } elseif(!preg_match('/^[a-zA-Z0-9_]+$/', trim($_POST["username"]))){
